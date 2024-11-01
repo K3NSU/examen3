@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 #Otorgamos permisos a la llave
 chmod 400 "examen3.pem"
