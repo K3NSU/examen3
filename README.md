@@ -7,7 +7,7 @@ Y ejecutamos el script con
 Entramos a la carpeta de Proyecto y le damos permisos al script
 cd Proyecto
 chmod +x ssh.sh
-Una vez la instancia se inicie ejecutamos el siguiente script
+Una vez la instancia se inicie la instancia ejecutamos el siguiente script
 ./ssh.sh
 
 
