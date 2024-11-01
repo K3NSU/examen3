@@ -4,6 +4,7 @@ Una vez descargado el git procedemos a entrar a la carpeta de examen3 y usar el 
 chmod +x mi_script.sh
 Y ejecutamos el script con
 ./install.sh
-Una vez la instancia se inicie ejecutamos el siguiente comando entrando a la carpeta de 
-cd Proyectos
+Una vez la instancia se inicie ejecutamos el siguiente script
+./ssh.sh
+
 
