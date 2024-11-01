@@ -36,8 +36,5 @@ terraform init
 terraform plan
 terraform apply -auto-approve
 
-#Permisos para el script ssh
-chmod +x Proyecto/ssh.sh
-
 
 
