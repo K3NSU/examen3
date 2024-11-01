@@ -37,6 +37,9 @@ chmod +x docker.sh
 Ejecutamos el script con el comando
 ./docker.sh
 
+Podemos hacer pruebas buscando en google la pagina
+http:// IP Publica de la instancia EC2
+
 
 
 
