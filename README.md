@@ -31,6 +31,12 @@ chmod +x install_docker.sh
 Ejecutamos el script con el comando
 ./install_docker.sh
 
+Ahora le daremos permisos al creador de docker con el comando
+chmod +x docker.sh
+
+Ejecutamos el script con el comando
+./docker.sh
+
 
 
 
