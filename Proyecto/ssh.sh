@@ -10,7 +10,7 @@ INSTANCE_NAME="Examen3instance"
 INSTANCE_ID=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=$INSTANCE_NAME" --query 'Reservations[0].Insta>
 
 # Obtener la dirección IP pública de la instancia
-IP_ADDRESS=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --query 'Reservations[0].Instances[0].PublicIpAddress' --output text)
+IP_ADDRESS=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --query 'Reservations[0].Instances[0].PublicIpAddress' --output text>
 
 echo "La IP pública de la instancia es: $IP_ADDRESS"
 
